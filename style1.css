@@ -35,7 +35,7 @@ header.page-header > nav {
 header.page-header > nav ul {
     list-style-type: none;
 }
-/*fixed selector to correspond with html*/
+
 header.page-header > nav ul li {
     display: inline-block;
     margin-left: 25px;
@@ -187,14 +187,14 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
-.footer {
+/* fixed footer selectors*/
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
